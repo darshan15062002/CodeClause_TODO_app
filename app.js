@@ -8,7 +8,7 @@ app.set("view engine", "ejs");
 app.use(bodyparser.urlencoded({ extended: true }));
 
 mongoose.connect(
-  "mongodb+srv://admin-darshan:$$dar$$123@cluster0.0seyjfy.mongodb.net/todolist"
+  "mongodb+srv://darshan:$$dar$$123@cluster0.0seyjfy.mongodb.net/todolist"
 );
 
 // mongoose.connect("mongodb://localhost:27017/todolist" );
